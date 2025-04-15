@@ -5,8 +5,10 @@ import (
 )
 
 func main() {
-	valor := sum(1,2,3,4,5,5,6,7,8,9,10)
-	fmt.Println(valor)
+
+
+	total := sum(1, 2, 3, 4, 5)
+	fmt.Println(total)
 }
 
 
