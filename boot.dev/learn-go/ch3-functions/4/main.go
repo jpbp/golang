@@ -27,3 +27,13 @@ f func(func(int,int) int, int) int
 Reference
 The following post on the Go blog is a great resource for further reading on declaration syntax.
 */
+package main
+
+import "fmt"
+
+func main(){
+	var x int
+	var p *int
+	var a [3]int
+	fmt.Println(x,p,a)
+}
