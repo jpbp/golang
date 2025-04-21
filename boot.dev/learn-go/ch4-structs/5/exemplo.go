@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+
 type rect struct {
 	width int
 	height int
