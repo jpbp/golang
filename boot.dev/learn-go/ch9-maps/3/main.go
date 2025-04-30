@@ -43,5 +43,8 @@ func main(){
 	hits1[Key{Path: "/health",Country: "AU"}]++
 	hits1[Key{Path: "/health",Country: "AU"}]++
 	n := hits1[Key{"/ref/spec", "ch"}]
+	n1 := hits1[Key{"aaa", "caah"}]
+	
 	fmt.Println("aqui",n)
+	fmt.Println("aqui11",n1)
 }
