@@ -36,4 +36,3 @@ func updateBalance(c *customer,t transaction) (er error){
 	return nil
 }
 
-func main ()
