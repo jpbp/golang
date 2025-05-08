@@ -7,8 +7,8 @@ func splitAnySlice[T any](s []T) ([]T, []T) {
     return s[:mid], s[mid:]
 }
 
-func getLast[T any](s []T) T {
-	var myZero T
+func getLast[Z any](s []Z) Z {
+	var myZero Z
 	if len(s) == 0{
 		return myZero
 	}
